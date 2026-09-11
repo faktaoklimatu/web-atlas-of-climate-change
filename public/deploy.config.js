@@ -5,12 +5,12 @@
 export const deployConfig = {
   // Full origin where THIS site is served (no trailing slash, no path).
   // Drives canonical URLs, Open Graph tags and the sitemap.
-  siteUrl: 'https://hiiampadik.github.io',
+  siteUrl: 'https://atlasofclimatechange.org',
 
   // Path the site is served under:
   //   '/'          → custom domain at the root
   //   '/RepoName'  → GitHub Pages project site (must match the repo name)
-  basePath: '/AtlasOfClimateChange',
+  basePath: '/',
 
   // Language of THIS fork (ISO code, e.g. 'en', 'cs'). Sets <html lang> and
   // og:locale. One value per fork — the site is single-language.
