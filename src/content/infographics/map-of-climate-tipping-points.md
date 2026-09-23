@@ -1,11 +1,15 @@
 ---
 title: Map of Climate Tipping Points
-lead: Beyond certain critical thresholds, Earth's response to warming is no longer linear or predictable.
+lead: "Beyond certain critical thresholds, Earth's response to warming is no longer linear or predictable. Triggering these tipping points brings large-scale, irreversible changes to our planet."
 chapter: the-impacts
 order: 3
-image: /images/atlas/atlas-_30.png
+image: /images/atlas/map-of-climate-tipping-points.png
 downloads:
-  - /images/atlas/atlas-_30.png
+  - /images/atlas/map-of-climate-tipping-points.png
+data:
+  sources:
+    - label: "McKay et al. (2022)"
+      url: https://doi.org/10.1126/science.abn7950
 ---
 
 **When warming exceeds tipping points, ecosystems, currents, and ice sheets can no longer maintain stability. While the threshold and the pace vary for each system, the resulting changes are irreversible. For humanity, this means moving beyond the stable climate that supported our civilization for millennia.**
@@ -30,6 +34,6 @@ Coral reefs are built on a delicate partnership: the corals provide the limeston
 
 Large parts of the Great Barrier Reef have recently experienced recurring bleaching events and many corals have died. Scientists estimate that **at 1.5 °C of global warming, 70–90% of tropical and subtropical reefs will be lost**, with near total loss by 2.0 °C. Coral collapse will eliminate one of the Earth's richest ecosystems in biodiversity, affecting a vast marine food web, and the livelihoods of hundreds of millions of people.
 
-The remaining tipping points — permafrost thaw, Atlantic circulation collapse, and Amazon dieback — continue on [The Thresholds of Climate Tipping Risks](/the-thresholds-of-climate-tipping-risks/).
+The remaining tipping points – permafrost thaw, Atlantic circulation collapse, and Amazon dieback – continue on [The Thresholds of Climate Tipping Risks](/the-thresholds-of-climate-tipping-risks/).
 
 [^1]: Temperature thresholds, time horizons, and other details on this page are based on a thorough assessment of the tipping points by McKay, D.A. et al. (2022). Exceeding 1.5°C global warming could trigger multiple climate tipping points. Science 377, eabn7950. DOI: [10.1126/science.abn7950](https://doi.org/10.1126/science.abn7950).

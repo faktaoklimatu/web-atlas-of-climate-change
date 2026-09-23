@@ -1,11 +1,15 @@
 ---
 title: Global Map of Temperature Changes
-lead: The warming rate is not uniform around the globe. Continents warm faster than oceans, and the Northern Hemisphere faster than the Southern.
+lead: "Between 1961 and 2025, warming has been uneven across the globe. Continents have warmed faster than oceans, and the Northern Hemisphere faster than the Southern Hemisphere."
 chapter: the-science
 order: 4
-image: /images/atlas/atlas-_18.png
+image: /images/atlas/global-map-of-temperature-changes.png
 downloads:
-  - /images/atlas/atlas-_18.png
+  - /images/atlas/global-map-of-temperature-changes.png
+data:
+  sources:
+    - label: "NASA GISTEMP v4"
+      url: https://data.giss.nasa.gov/gistemp/
 ---
 
 **Changes over the last six decades have shown that the warming rate varies across different regions, which is consistent with predictions from computer simulations.**
@@ -20,7 +24,7 @@ The amplification of warming over the Arctic Ocean is related to different physi
 
 Due to increasing temperatures over the Arctic Ocean, sea ice is melting. As a result, more water surface is ice-free and more solar radiation is being absorbed, which leads to further warming of the ocean, further temperature increase, more ice melting, and so on.
 
-*Ocean water warming → water absorbing more sunlight → sea ice melting → more ice-free water surface — and the loop repeats.*
+*Ocean water warming → water absorbing more sunlight → sea ice melting → more ice-free water surface – and the loop repeats.*
 
 ## Why is the warming not amplified in the South?
 

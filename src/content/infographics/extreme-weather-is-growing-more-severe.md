@@ -1,11 +1,15 @@
 ---
 title: Extreme Weather Is Growing More Severe
-lead: Extreme weather events occur more frequently and with greater intensity with any rise in global temperature.
+lead: "Extreme weather events will occur more frequently and with greater intensity with any rise in global temperature."
 chapter: the-impacts
 order: 2
-image: /images/atlas/atlas-_28.png
+image: /images/atlas/extreme-weather-is-growing-more-severe.png
 downloads:
-  - /images/atlas/atlas-_28.png
+  - /images/atlas/extreme-weather-is-growing-more-severe.png
+data:
+  sources:
+    - label: "IPCC, AR6 WGI SPM"
+      url: https://doi.org/10.1017/9781009157896.001
 ---
 
 **Extremes such as heat waves, droughts, and heavy rainfall occur more frequently and with greater intensity in a world under climate change. With any additional warming, extremes become greater and more pronounced.**

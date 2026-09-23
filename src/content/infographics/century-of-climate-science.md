@@ -1,15 +1,11 @@
 ---
 title: Century of Climate Science
-lead: We have known about climate change caused by CO₂ emissions for more than a hundred years.
+lead: "We have known about climate change caused by CO₂ emissions for more than a hundred years."
 chapter: introduction
 order: 2
-image: /images/atlas/atlas-_10.png
+image: /images/atlas/century-of-climate-science.png
 downloads:
-  - /images/atlas/atlas-_10.png
-data:
-  tableUrl: ""
-  sourceUrl: ""
-  citation: Historical review, Fakta o klimatu
+  - /images/atlas/century-of-climate-science.png
 related:
   - causes-and-effects-of-climate-change
   - co2-concentrations-at-an-800000-year-high

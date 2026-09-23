@@ -1,15 +1,11 @@
 ---
 title: Causes and Effects of Climate Change
-lead: Climate change is much more than rising temperatures. It is a long chain of interconnected causes and effects.
+lead: "Climate change is much more than rising temperatures. It is a long chain of interconnected causes and effects."
 chapter: introduction
 order: 1
-image: /images/atlas/atlas-_08.png
+image: /images/atlas/causes-and-effects-of-climate-change.png
 downloads:
-  - /images/atlas/atlas-_08.png
-data:
-  tableUrl: ""
-  sourceUrl: ""
-  citation: IPCC AR6 Synthesis Report
+  - /images/atlas/causes-and-effects-of-climate-change.png
 related:
   - century-of-climate-science
   - co2-concentrations-at-an-800000-year-high

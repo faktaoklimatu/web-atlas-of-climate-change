@@ -1,11 +1,17 @@
 ---
 title: Climate Solutions Across Sectors
-lead: Stopping greenhouse gas emissions requires distinct strategies for different sectors of the economy.
+lead: "Stopping greenhouse gas emissions requires distinct strategies for different sectors. In most cases, deep decarbonization relies on a combination of several solutions rather than a single fix."
 chapter: the-solutions
 order: 2
-image: /images/atlas/atlas-_44.png
+image: /images/atlas/climate-solutions-across-sectors.png
 downloads:
-  - /images/atlas/atlas-_44.png
+  - /images/atlas/climate-solutions-across-sectors.png
+data:
+  sources:
+    - label: "EDGAR 2025"
+      url: https://edgar.jrc.ec.europa.eu/report_2025
+    - label: "GCB 2025"
+      url: https://doi.org/10.5194/essd-2025-659
 ---
 
 **Paths towards decarbonising various sectors of the economy fall into six distinct categories, coded A–F in the graphic.**

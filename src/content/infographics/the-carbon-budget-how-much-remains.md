@@ -1,11 +1,15 @@
 ---
 title: "The Carbon Budget: How Much Remains?"
-lead: If emissions continue at 2025 levels, the remaining carbon budget for staying below 1.5 °C will be exhausted in 2030.
+lead: "If global CO₂ emissions continue at 2025 levels, the remaining carbon budget for staying below 1.5 °C of global warming will be exhausted in 2030; for staying below 2 °C, it will be spent in 2051."
 chapter: the-trajectory
 order: 3
-image: /images/atlas/atlas-_38.png
+image: /images/atlas/the-carbon-budget-how-much-remains.png
 downloads:
-  - /images/atlas/atlas-_38.png
+  - /images/atlas/the-carbon-budget-how-much-remains.png
+data:
+  sources:
+    - label: "GCB 2025"
+      url: https://doi.org/10.5194/essd-2025-659
 ---
 
 The extent of global warming depends primarily on how much more CO₂ humans add to the atmosphere. Limiting warming to well below 2 °C, in line with the Paris Agreement, is becoming increasingly challenging.

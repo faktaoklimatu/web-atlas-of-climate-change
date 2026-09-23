@@ -1,11 +1,15 @@
 ---
 title: How Much Is the Planet Warming?
-lead: The world is now approximately 1.3 °C warmer than in 1850–1900. Over the last thirty years, the warming rate has been around 0.25 °C per decade.
+lead: "The world is now approximately 1.3 °C warmer than in 1850–1900. Over the last thirty years, the warming rate has been about 0.25 °C per decade."
 chapter: the-science
 order: 3
-image: /images/atlas/atlas-_16.png
+image: /images/atlas/how-much-is-the-planet-warming.png
 downloads:
-  - /images/atlas/atlas-_16.png
+  - /images/atlas/how-much-is-the-planet-warming.png
+data:
+  sources:
+    - label: "NASA GISTEMP v4"
+      url: https://data.giss.nasa.gov/gistemp/
 ---
 
 **The data from scientific measurements show that temperatures keep rising with increasing CO₂ concentrations, in line with the predictions.**

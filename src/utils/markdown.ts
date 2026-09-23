@@ -1,10 +1,10 @@
 import { createSatteriMarkdownProcessor } from '@astrojs/markdown-satteri';
-import { satteriBaseLinks, satteriExternalLinks } from './satteri-plugins.mjs';
+import { satteriBaseLinks, satteriNewTabLinks } from './satteri-plugins.mjs';
 
 const base = import.meta.env.BASE_URL;
 
 const processor = await createSatteriMarkdownProcessor({
-  hastPlugins: [satteriBaseLinks(base), satteriExternalLinks()],
+  hastPlugins: [satteriBaseLinks(base), satteriNewTabLinks()],
 });
 
 /**

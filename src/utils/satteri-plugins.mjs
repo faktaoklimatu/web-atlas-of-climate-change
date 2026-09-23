@@ -27,18 +27,21 @@ export function satteriBaseLinks(prefix) {
   };
 }
 
-// Open external links (absolute http(s) or protocol-relative) in a new tab.
-export function satteriExternalLinks() {
+// Open links in a new tab: external ones (absolute http(s) or
+// protocol-relative) and cross-links to another page of the Atlas, so a
+// reader following one never loses their place in the text they were reading.
+// In-page anchors (footnote refs and back-refs, #hash) stay in this tab.
+export function satteriNewTabLinks() {
   return {
-    name: 'satteri-external-links',
+    name: 'satteri-new-tab-links',
     element: {
       filter: ['a'],
       visit(node, ctx) {
         const href = node.properties?.href;
-        if (
-          typeof href === 'string' &&
-          (/^https?:\/\//.test(href) || href.startsWith('//'))
-        ) {
+        if (typeof href !== 'string') return;
+        const isExternal = /^https?:\/\//.test(href) || href.startsWith('//');
+        const isCrossLink = href.startsWith('/'); // another Atlas page
+        if (isExternal || isCrossLink) {
           ctx.setProperty(node, 'target', '_blank');
           ctx.setProperty(node, 'rel', 'noopener noreferrer');
         }

@@ -1,18 +1,18 @@
 ---
 title: Who Drives Change? State, Business, and People
-lead: "Decarbonization involves three main groups of actors: the state, businesses, and people. Success depends on their cooperation."
+lead: "Decarbonization involves three main groups of actors: the state, businesses, and people. Success depends on their cooperation, as each holds different tools to reduce emissions."
 chapter: the-solutions
 order: 4
-image: /images/atlas/atlas-_48.png
+image: /images/atlas/who-drives-change-state-business-and-people.png
 downloads:
-  - /images/atlas/atlas-_48.png
+  - /images/atlas/who-drives-change-state-business-and-people.png
 ---
 
 **Out of the three key actors, the state holds a unique position. By setting the rules of the game, it creates the systemic framework that makes it easier for businesses and individuals to take the necessary steps toward a low-carbon future.**
 
 ## The State
 
-The role of government — from local municipalities to supranational bodies such as the EU — is to create conditions for a transition that is swift, efficient, socially just, economically beneficial, and publicly supported. To achieve this, governments use a mix of four policy types:
+The role of government – from local municipalities to supranational bodies such as the EU – is to create conditions for a transition that is swift, efficient, socially just, economically beneficial, and publicly supported. To achieve this, governments use a mix of four policy types:
 
 - **Regulatory:** Setting binding targets, performance standards (e.g., fuel efficiency for cars), and building codes.
 - **Economic:** Carbon pricing (taxes or trading systems), subsidies for clean technology, and tax reliefs for green investments.

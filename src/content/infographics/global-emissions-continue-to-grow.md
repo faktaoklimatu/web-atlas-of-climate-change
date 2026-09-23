@@ -1,11 +1,17 @@
 ---
 title: Global Emissions Continue to Grow
-lead: Global greenhouse gas emissions have nearly doubled over the past 55 years.
+lead: "Global greenhouse gas emissions have nearly doubled over the past 55 years. Their growth peaked during the 2000s and slowed significantly in the 2010s, but has picked up again in the 2020s."
 chapter: the-trajectory
 order: 2
-image: /images/atlas/atlas-_36.png
+image: /images/atlas/global-emissions-continue-to-grow.png
 downloads:
-  - /images/atlas/atlas-_36.png
+  - /images/atlas/global-emissions-continue-to-grow.png
+data:
+  sources:
+    - label: "EDGAR 2025"
+      url: https://edgar.jrc.ec.europa.eu/report_2025
+    - label: "GCB 2025"
+      url: https://doi.org/10.5194/essd-2025-659
 ---
 
 **Global greenhouse gas emissions are still rising as of the end of 2025, albeit at a slower pace than two decades ago. To meet international climate targets and to avoid even more dangerous warming, global emissions need to fall substantially.**

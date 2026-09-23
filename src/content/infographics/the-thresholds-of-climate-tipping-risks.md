@@ -1,11 +1,15 @@
 ---
 title: The Thresholds of Climate Tipping Risks
-lead: Five of Earth's vital climate components are already at risk of irreversible change.
+lead: "Five of Earth's vital climate components are already at risk of irreversible change. At 2 °C of warming, triggering seven tipping points becomes likely, while a further six move into the range of risk."
 chapter: the-impacts
 order: 4
-image: /images/atlas/atlas-_32.png
+image: /images/atlas/the-thresholds-of-climate-tipping-risks.png
 downloads:
-  - /images/atlas/atlas-_32.png
+  - /images/atlas/the-thresholds-of-climate-tipping-risks.png
+data:
+  sources:
+    - label: "McKay et al. (2022)"
+      url: https://doi.org/10.1126/science.abn7950
 ---
 
 The risk of crossing climate tipping points is an imminent reality, not a distant concern. Within the Paris Agreement warming range of 1.5 °C to 2 °C, several systems are already likely to tip. These include the collapse of major ice sheets, the widespread die-off of coral reefs, and the abrupt thawing of permafrost.

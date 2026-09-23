@@ -14,7 +14,7 @@ interface Props {
   href?: string;
 }
 import { imgUrl } from '../../utils/img';
-import TeaserImage from './TeaserImage.astro';
+import CroppedInfographic from '../CroppedInfographic.astro';
 const { title, image, slug, chapterId, href = '#' } = Astro.props;
 const src = imgUrl(image);
 ---
@@ -22,7 +22,7 @@ const src = imgUrl(image);
 <article class="scard" data-slug={slug} data-chapter={chapterId}>
   <a class="scard__link" href={href}>
     <h3 class="scard__title type-card-title">{title}</h3>
-    <TeaserImage src={src} alt="" />
+    <CroppedInfographic src={src} alt="" />
   </a>
 </article>
 
