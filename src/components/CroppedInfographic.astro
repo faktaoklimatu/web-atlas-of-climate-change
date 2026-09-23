@@ -8,16 +8,22 @@
  * matches the template's content-area ratio, so the crop lands exactly on
  * the white area with no distortion — and since every infographic shares
  * that ratio, height at a given width is identical across all of them.
+ *
+ * Used both on the detail page and by the feed cards (ArticleCard /
+ * ArticleSmall / RelatedCard) — one crop everywhere, so a card preview shows
+ * exactly what the detail page shows.
  */
 interface Props {
   src: string;
   alt: string;
   loading?: 'lazy' | 'eager';
+  /** Rounded corners — used by the list-view card, whose graphic is inset. */
+  rounded?: boolean;
 }
-const { src, alt, loading = 'lazy' } = Astro.props;
+const { src, alt, loading = 'lazy', rounded = false } = Astro.props;
 ---
 
-<div class="cropped-infographic">
+<div class="cropped-infographic" class:list={{ 'cropped-infographic--rounded': rounded }}>
   <img src={src} alt={alt} loading={loading} decoding="async" />
 </div>
 
@@ -27,6 +33,10 @@ const { src, alt, loading = 'lazy' } = Astro.props;
     width: 100%;
     aspect-ratio: 1261 / 723;
     overflow: hidden;
+    background: var(--white);
+  }
+  .cropped-infographic--rounded {
+    border-radius: var(--size-2); /* 8px */
   }
   .cropped-infographic img {
     position: absolute;

@@ -1,11 +1,15 @@
 ---
 title: The Greenhouse Effect and Energy Imbalance
-lead: Earth's climate is set by a balance between energy from the Sun and energy radiated back to space. Human activity has now disrupted this equilibrium.
+lead: "The Earth's climate is determined by a radiation balance between the energy received from the Sun and the energy emitted back into space. Human-induced changes to the atmosphere have now disrupted this equilibrium."
 chapter: the-science
 order: 7
-image: /images/atlas/atlas-_24.png
+image: /images/atlas/the-greenhouse-effect-and-energy-imbalance.png
 downloads:
-  - /images/atlas/atlas-_24.png
+  - /images/atlas/the-greenhouse-effect-and-energy-imbalance.png
+data:
+  sources:
+    - label: "IPCC, AR6 WGI"
+      url: https://doi.org/10.1017/9781009157896
 ---
 
 **The Earth stays habitable because of a delicate balancing act. It sits in the cold vacuum of space, constantly receiving an enormous flow of solar energy that heats it up. To keep its temperature stable, it must release an equal amount of energy back into space. Currently, greenhouse gases emitted by humans have upset this balance, leading to an accumulation of thermal energy within the Earth system.**

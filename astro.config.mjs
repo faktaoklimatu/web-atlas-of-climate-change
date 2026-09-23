@@ -2,7 +2,7 @@ import { defineConfig } from 'astro/config';
 import { satteri } from '@astrojs/markdown-satteri';
 import sitemap from '@astrojs/sitemap';
 import { deployConfig } from './public/deploy.config.js';
-import { satteriBaseLinks, satteriExternalLinks } from './src/utils/satteri-plugins.mjs';
+import { satteriBaseLinks, satteriNewTabLinks } from './src/utils/satteri-plugins.mjs';
 
 // Deploy identity (site URL, base path, CMS repo) lives in one place —
 // public/deploy.config.js — so a fork edits only that file. Local dev + the
@@ -14,7 +14,7 @@ const base = process.env.BASE_PATH ?? deployConfig.basePath;
 // Markdown cross-links are authored root-absolute (/slug/). Astro does NOT
 // prefix Markdown link hrefs with `base`; satteriBaseLinks rewrites them so
 // they resolve under /AtlasOfClimateChange (prod) and / (dev) alike, and
-// satteriExternalLinks opens absolute links in a new tab. Both live in
+// satteriNewTabLinks opens absolute links in a new tab. Both live in
 // src/utils/satteri-plugins.mjs so inline CMS-text rendering shares them.
 //
 // Sätteri (Astro 7's default Markdown processor) uses a filtered-visitor plugin
@@ -28,6 +28,6 @@ export default defineConfig({
   base,
   integrations: [sitemap({ filter: (page) => !page.endsWith('/404/') })],
   markdown: {
-    processor: satteri({ hastPlugins: [satteriBaseLinks(base), satteriExternalLinks()] }),
+    processor: satteri({ hastPlugins: [satteriBaseLinks(base), satteriNewTabLinks()] }),
   },
 });

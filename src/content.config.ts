@@ -23,7 +23,7 @@ const infographicsCollection = defineCollection({
       'the-solutions',
     ]),
     order: z.number().default(0),
-    image: z.string(), // public path, e.g. /images/atlas/atlas-_08.png
+    image: z.string(), // public path, e.g. /images/atlas/causes-and-effects-of-climate-change.png
     // List of downloadable files (public paths). The button label is derived
     // from each file's extension (e.g. `.pdf` → "PDF"). No longer auto-includes
     // the cover image — every download, PNG included, is added explicitly.
@@ -31,6 +31,14 @@ const infographicsCollection = defineCollection({
     data: z
       .object({
         tableUrl: z.string().optional(),
+        // Data sources exactly as printed in the bottom-right corner of the
+        // infographic ("data source: ..."). One entry per source; `url` is
+        // optional — without it the name is printed as plain text.
+        sources: z
+          .array(z.object({ label: z.string(), url: z.string().optional() }))
+          .optional(),
+        // Legacy fields, kept for backwards compatibility: when `sources` is
+        // missing, a single list entry is built from them.
         sourceUrl: z.string().optional(),
         citation: z.string().optional(),
       })

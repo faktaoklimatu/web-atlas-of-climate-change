@@ -1,11 +1,15 @@
 ---
 title: The Steady Decline of EU Emissions
-lead: Between 1990 and 2024, EU emissions dropped by over one third — decreasing in every sector except transportation.
+lead: "Between 1990 and 2024 the EU emissions dropped by 36%. Emissions decreased in all sectors, except for transportation."
 chapter: the-solutions
 order: 3
-image: /images/atlas/atlas-_46.png
+image: /images/atlas/the-steady-decline-of-eu-emissions.png
 downloads:
-  - /images/atlas/atlas-_46.png
+  - /images/atlas/the-steady-decline-of-eu-emissions.png
+data:
+  sources:
+    - label: "Eurostat, env-air-gge"
+      url: https://doi.org/10.2908/env_air_gge
 ---
 
 The European Union reduced its emissions by over one third between 1990 and 2024. This progress reflects a fundamental shift in how the region generates energy and manages its economy.

@@ -1,11 +1,19 @@
 ---
 title: Warming from the Last Glacial Period to the Present
-lead: It took the planet at least 7,000 years to warm by 7 °C from the last glacial period. It took only the last 100 years to warm by 1.3 °C.
+lead: "During the transition from the Last Glacial Period, the planet warmed at a rate of about 1 °C per millennium. Currently, it is warming more than ten times faster."
 chapter: the-science
 order: 5
-image: /images/atlas/atlas-_20.png
+image: /images/atlas/warming-from-last-glacial-period-to-present.png
 downloads:
-  - /images/atlas/atlas-_20.png
+  - /images/atlas/warming-from-last-glacial-period-to-present.png
+data:
+  sources:
+    - label: "Osman et al. (2021)"
+      url: https://doi.org/10.1038/s41586-021-03984-4
+    - label: "NASA GISTEMP v4"
+      url: https://data.giss.nasa.gov/gistemp/
+    - label: "IPCC, AR6 WGI"
+      url: https://doi.org/10.1017/9781009157896
 ---
 
 **Some argue that the climate has always been changing. The climate has indeed always changed – but the rate of current warming is unprecedented in the context of human civilization. It is the speed of change that matters for ecosystems and societies.**

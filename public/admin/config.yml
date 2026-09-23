@@ -54,8 +54,15 @@ collections:
         collapsed: true
         fields:
           - { label: "Data table URL", name: "tableUrl", widget: "string", required: false }
-          - { label: "Data source URL", name: "sourceUrl", widget: "string", required: false }
-          - { label: "Source citation", name: "citation", widget: "string", required: false, hint: "e.g. NASA Goddard Institute for Space Studies" }
+          - label: "Data sources"
+            name: "sources"
+            widget: "list"
+            required: false
+            summary: "{{fields.label}}"
+            hint: "One entry per source, exactly as printed at the bottom right of the infographic (\"data source: ...\"). Each is shown on its own line in the sidebar; leave the URL empty to print the name without a link."
+            fields:
+              - { label: "Name", name: "label", widget: "string", hint: "e.g. NASA GISTEMP v4" }
+              - { label: "URL", name: "url", widget: "string", required: false }
       - label: "Related infographics"
         name: "related"
         widget: "list"

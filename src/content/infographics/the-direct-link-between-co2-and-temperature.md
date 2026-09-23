@@ -1,11 +1,17 @@
 ---
 title: The Direct Link Between CO₂ and Temperature
-lead: The higher the CO₂ concentration in the atmosphere, the higher the Earth's temperature.
+lead: "The higher the CO₂ concentration in the atmosphere, the higher the Earth's temperature. The levels of atmospheric CO₂ depend on the amount of emissions produced by humankind."
 chapter: the-science
 order: 6
-image: /images/atlas/atlas-_22.png
+image: /images/atlas/the-direct-link-between-co2-and-temperature.png
 downloads:
-  - /images/atlas/atlas-_22.png
+  - /images/atlas/the-direct-link-between-co2-and-temperature.png
+data:
+  sources:
+    - label: "NOAA, Global Monitoring Library, Mauna Loa"
+      url: https://gml.noaa.gov/ccgg/trends/
+    - label: "NASA GISTEMP v4"
+      url: https://data.giss.nasa.gov/gistemp/
 ---
 
 **The graph reveals a clear relationship: the higher the CO₂ concentration, the higher the global temperature. To stop global warming, the world needs to stop CO₂ emissions.**

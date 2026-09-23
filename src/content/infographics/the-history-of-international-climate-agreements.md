@@ -1,11 +1,16 @@
 ---
 title: The History of International Climate Agreements
-lead: Key milestones in the global effort to protect the climate — summits, panels, negotiations, and treaties.
+lead: "Key milestones in global effort to protect the world's climate – important summits, panels, negotiations, and treaties."
 chapter: the-solutions
 order: 1
-image: /images/atlas/atlas-_42.png
+image: /images/atlas/the-history-of-international-climate-agreements.png
 downloads:
-  - /images/atlas/atlas-_42.png
+  - /images/atlas/the-history-of-international-climate-agreements.png
+data:
+  sources:
+    - label: "UN"
+    - label: "IPCC"
+    - label: "European Commission"
 ---
 
 **Climate change is a global challenge requiring long-term collaboration on both national and international levels. While international negotiations can be slow and cumbersome, they establish an important framework for global climate protection and emissions reduction.**

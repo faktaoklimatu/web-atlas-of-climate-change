@@ -11,6 +11,7 @@ import GlobeIcon from './icons/GlobeIcon.astro';
 import ListIcon from './icons/ListIcon.astro';
 import CloseIcon from './icons/CloseIcon.astro';
 import { ui } from '../data/ui';
+import { pdfLinkAttrs } from '../utils/img';
 
 interface Sibling {
   code: string;
@@ -57,8 +58,7 @@ const aboutHref = `${base}/about/`;
       {atlasPdfUrl && (
         <a
           class="nav__link type-nav-link"
-          href={`${base}${atlasPdfUrl}`}
-          download
+          {...pdfLinkAttrs(atlasPdfUrl)}
         >{ui.nav.downloadPdf}</a>
       )}
 
@@ -134,8 +134,7 @@ const aboutHref = `${base}/about/`;
           {atlasPdfUrl && (
             <a
               class="nav-menu__item type-nav-link"
-              href={`${base}${atlasPdfUrl}`}
-              download
+              {...pdfLinkAttrs(atlasPdfUrl)}
             >{ui.nav.downloadPdf}</a>
           )}
           {siblings.length > 0 && (

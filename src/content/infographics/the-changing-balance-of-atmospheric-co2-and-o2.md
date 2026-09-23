@@ -1,11 +1,17 @@
 ---
 title: The Changing Balance of Atmospheric CO₂ & O₂
-lead: Changes in carbon dioxide and oxygen concentrations show annual cycles of respiration and photosynthesis, as well as the long-term effects of fossil fuel combustion.
+lead: "Changes in carbon dioxide (CO₂) and oxygen (O₂) concentrations in time show annual cycles of respiration and photosynthesis on Earth as well as long-term effects of fossil fuel combustion."
 chapter: the-science
 order: 2
-image: /images/atlas/atlas-_14.png
+image: /images/atlas/the-changing-balance-of-atmospheric-co2-and-o2.png
 downloads:
-  - /images/atlas/atlas-_14.png
+  - /images/atlas/the-changing-balance-of-atmospheric-co2-and-o2.png
+data:
+  sources:
+    - label: "NOAA, Global Monitoring Library, Mauna Loa"
+      url: https://gml.noaa.gov/ccgg/trends/
+    - label: "Scripps O₂ Program, Mauna Loa Observatory"
+      url: https://scrippso2.ucsd.edu/data/mlo.html
 ---
 
 **A long-term trend in increasing concentrations of carbon dioxide (CO₂) and declining concentrations of oxygen (O₂) shows that humans have been causing changes in the atmosphere composition by their activity – primarily by burning fossil fuels.**

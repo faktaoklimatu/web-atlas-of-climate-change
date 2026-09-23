@@ -36,7 +36,6 @@ export const ui = {
     download: 'Download',
     underlyingData: 'Underlying data',
     dataTable: 'Our data table',
-    dataSource: 'Data source',
     previousInfographic: 'Previous infographic',
     nextInfographic: 'Next infographic',
   },

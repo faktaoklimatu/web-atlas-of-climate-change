@@ -13,7 +13,7 @@ interface Props {
   href?: string;
 }
 import { imgUrl } from '../../utils/img';
-import TeaserImage from './TeaserImage.astro';
+import CroppedInfographic from '../CroppedInfographic.astro';
 const { title, lead, image, slug, chapterId, href = '#' } = Astro.props;
 const src = imgUrl(image);
 ---
@@ -25,7 +25,7 @@ const src = imgUrl(image);
       <p class="acard__lead type-body">{lead}</p>
     </div>
     <div class="acard__media">
-      <TeaserImage src={src} alt="" rounded />
+      <CroppedInfographic src={src} alt="" rounded />
     </div>
   </a>
 </article>

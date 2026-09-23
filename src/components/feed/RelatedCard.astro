@@ -10,14 +10,14 @@ interface Props {
   href: string;
 }
 import { imgUrl } from '../../utils/img';
-import TeaserImage from './TeaserImage.astro';
+import CroppedInfographic from '../CroppedInfographic.astro';
 const { title, image, href } = Astro.props;
 const src = imgUrl(image);
 ---
 
 <a class="related" href={href}>
   <h3 class="related__title type-card-title">{title}</h3>
-  <TeaserImage src={src} alt="" />
+  <CroppedInfographic src={src} alt="" />
 </a>
 
 <style>

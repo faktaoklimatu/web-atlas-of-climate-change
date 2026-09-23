@@ -9,8 +9,6 @@ import Button from '../components/Button.astro';
 import RelatedCard from '../components/feed/RelatedCard.astro';
 import CroppedInfographic from '../components/CroppedInfographic.astro';
 import SiteFooter from '../components/feed/SiteFooter.astro';
-import ExternalLinkIcon from '../components/icons/ExternalLinkIcon.astro';
-import CodeIcon from '../components/icons/CodeIcon.astro';
 import ArrowLeftIcon from '../components/icons/ArrowLeftIcon.astro';
 import { chapterName } from '../data/chapters';
 import { getFlatInfographics } from '../data/infographics';
@@ -55,10 +53,14 @@ const downloads = (data.downloads ?? [])
     label: (path.split('.').pop() || '').toUpperCase(),
   }));
 const tableUrl = data.data?.tableUrl || null;
-const sourceUrl = data.data?.sourceUrl || null;
-const citation = data.data?.citation || '';
-const hasDataLinks = tableUrl || sourceUrl;
-const hasUnderlyingData = hasDataLinks || citation;
+// Data sources, one row each. Entries written the old way (sourceUrl +
+// citation) collapse into a single row so nothing disappears.
+const sources =
+  data.data?.sources ??
+  (data.data?.sourceUrl || data.data?.citation
+    ? [{ label: data.data?.citation || data.data?.sourceUrl!, url: data.data?.sourceUrl }]
+    : []);
+const hasUnderlyingData = Boolean(tableUrl) || sources.length > 0;
 
 const href = (slug: string) => `${base}/${slug}/`;
 
@@ -128,25 +130,31 @@ const structuredData = {
               {hasUnderlyingData && (
                 <section class="meta__block" data-meta="data">
                   <h2 class="meta__label type-eyebrow">{ui.detail.underlyingData}</h2>
-                  <div class="meta__data">
-                    {hasDataLinks && (
-                      <ButtonGroup direction="column">
-                        {tableUrl && (
-                          <Button variant="text" href={tableUrl} target="_blank" rel="noopener noreferrer">
-                            <ExternalLinkIcon slot="icon-left" size={16} />
-                            {ui.detail.dataTable}
-                          </Button>
-                        )}
-                        {sourceUrl && (
-                          <Button variant="text" href={sourceUrl} target="_blank" rel="noopener noreferrer">
-                            <CodeIcon slot="icon-left" size={16} />
-                            {ui.detail.dataSource}
-                          </Button>
-                        )}
-                      </ButtonGroup>
+                  <ul class="meta__sources">
+                    {tableUrl && (
+                      <li class="meta__source-item type-small">
+                        <a href={tableUrl} target="_blank" rel="noopener noreferrer">
+                          <i class="fa-solid fa-table" aria-hidden="true"></i>
+                          <span>{ui.detail.dataTable}</span>
+                        </a>
+                      </li>
                     )}
-                    {citation && <p class="meta__source type-small">{citation}</p>}
-                  </div>
+                    {sources.map((s) => (
+                      <li class="meta__source-item type-small">
+                        {s.url ? (
+                          <a href={s.url} target="_blank" rel="noopener noreferrer">
+                            <i class="fa-solid fa-file-lines" aria-hidden="true"></i>
+                            <span>{s.label}</span>
+                          </a>
+                        ) : (
+                          <span class="meta__source-plain">
+                            <i class="fa-solid fa-file-lines" aria-hidden="true"></i>
+                            <span>{s.label}</span>
+                          </span>
+                        )}
+                      </li>
+                    ))}
+                  </ul>
                 </section>
               )}
 
@@ -322,17 +330,33 @@ const structuredData = {
     margin: 0;
     color: var(--text-primary);
   }
-  .meta__data {
+  /* Underlying data: one source per row, icon on the left. The icon must not
+     be pulled into the wrap of a multi-line name, hence flex +
+     align-items:start and a non-shrinking icon. */
+  .meta__sources {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     align-self: stretch;
     gap: var(--size-2);
-  }
-  .meta__source {
-    align-self: stretch;
     margin: 0;
-    color: var(--text-tertiary);
+    padding: 0;
+    list-style: none;
+  }
+  .meta__source-item a,
+  .meta__source-plain {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--size-2);
+    color: var(--text-secondary);
+    text-decoration: none;
+  }
+  .meta__source-plain { color: var(--text-tertiary); }
+  .meta__source-item a:hover { text-decoration: underline; }
+  .meta__source-item :global(i) {
+    flex: none;
+    width: 1em;
+    margin-top: 0.15em;
+    text-align: center;
   }
   .meta__related-item {
     display: flex;

@@ -1,15 +1,17 @@
 ---
 title: CO₂ Concentrations at an 800,000-Year High
-lead: The concentration of atmospheric CO₂ today is the highest since the dawn of humanity.
+lead: "The concentration of atmospheric CO₂ today is the highest since the dawn of humanity."
 chapter: the-science
 order: 1
-image: /images/atlas/atlas-_12.png
+image: /images/atlas/co2-concentrations-at-an-800000-year-high.png
 downloads:
-  - /images/atlas/atlas-_12.png
+  - /images/atlas/co2-concentrations-at-an-800000-year-high.png
 data:
-  tableUrl: ""
-  sourceUrl: https://gml.noaa.gov/ccgg/trends/
-  citation: NOAA Global Monitoring Laboratory
+  sources:
+    - label: "NOAA, Antarctic Ice Cores Revised 800KYr CO₂ Data"
+      url: https://www.ncei.noaa.gov/access/paleo-search/study/17975
+    - label: "NOAA, Global Monitoring Library, Mauna Loa"
+      url: https://gml.noaa.gov/ccgg/trends/
 related:
   - causes-and-effects-of-climate-change
   - century-of-climate-science
