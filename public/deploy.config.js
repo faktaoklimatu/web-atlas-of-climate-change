@@ -18,10 +18,12 @@ export const deployConfig = {
 
   // Decap CMS GitHub backend (admin login + content writes).
   cms: {
-    repo: 'hiiampadik/AtlasOfClimateChange', // '<owner>/<repo>'
+    repo: 'faktaoklimatu/web-atlas-of-climate-change', // '<owner>/<repo>'
     branch: 'master',
-    // OAuth broker for "Login with GitHub". Reuse the shared default,
-    // or deploy your own — see README, "Creating a new language version".
-    oauthBaseUrl: 'https://decap-oauth.brona-musil.workers.dev',
+    // OAuth broker for "Login with GitHub". Empty = CMS login is not wired up
+    // yet; deploy your own proxy (oauth-worker/) and put its origin here.
+    // See README, "Creating a new language version". Local editing via
+    // `npm run dev` + local_backend works without it.
+    oauthBaseUrl: '',
   },
 };
