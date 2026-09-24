@@ -130,14 +130,13 @@ mutation on your GitHub account:
    repository access; it only brokers the GitHub login and hands the resulting
    token to the browser. Which repo gets written to is decided by `cms.repo`
    above, not by the proxy. Two options:
-   - **Reuse the shared proxy (default).** Keep `cms.oauthBaseUrl` as shipped.
-     Each editor logs in as their own GitHub user (needs push access to your
-     repo) and writes only to your `cms.repo`. Caveat: the shared proxy must
-     permit your site's origin (ask the maintainer to allow it, or if the
-     Worker restricts origins it won't work for your domain).
-   - **Run your own.** Deploy a Decap OAuth proxy (e.g. a Cloudflare Worker) tied
-     to a **GitHub OAuth App you create**, then point `cms.oauthBaseUrl` at it.
-     See Decap's *GitHub backend* docs for ready-made proxies.
+   - **Run your own (required).** `cms.oauthBaseUrl` ships **empty**, so CMS
+     login is not wired up out of the box. Deploy a Decap OAuth proxy tied to a
+     **GitHub OAuth App you create** — this repo ships one in `oauth-worker/`
+     (Cloudflare Worker + `wrangler.toml`) — then put its origin in
+     `cms.oauthBaseUrl`. Each editor then logs in as their own GitHub user
+     (needs push access to your repo) and writes only to your `cms.repo`.
+     See Decap's *GitHub backend* docs for alternatives.
 
    Until a proxy is available you can still edit content locally with
    `local_backend: true` (run `npm run dev`), or commit Markdown directly on GitHub.

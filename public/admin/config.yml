@@ -3,7 +3,7 @@
 # These placeholders only keep config.yml valid for parsing / local_backend.
 backend:
   name: github
-  repo: hiiampadik/AtlasOfClimateChange
+  repo: faktaoklimatu/web-atlas-of-climate-change
   branch: master
 
 local_backend: true

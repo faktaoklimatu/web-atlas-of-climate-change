@@ -54,6 +54,7 @@ export const ui = {
     followUs: 'Follow us on social media',
     downloadPdf: 'Download Atlas in PDF',
     languageLabel: 'Available language versions',
+    languageInterest: 'Interested in the Atlas of Climate Change in your own language?',
     getInYourLanguage: 'Get the Atlas in your language',
   },
 } as const;

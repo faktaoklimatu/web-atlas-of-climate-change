@@ -15,9 +15,9 @@ The Atlas gives you:
 
 The Atlas is a reliable guide for decision-makers, journalists, students, and the public alike – and can serve as a backbone for climate curricula in secondary and higher education.
 
-[Download the full Atlas as a PDF](/images/atlas/atlas-of-climate-change-online.pdf)
+[**Download the full Atlas as a PDF**](/images/atlas/atlas-of-climate-change-online.pdf)
 
-Interested in the Atlas of Climate Change in your own language? You can make it happen — and we'll help. [Get the Atlas in your language](/get-the-atlas-in-your-language/)
+Interested in the Atlas of Climate Change in your own language? You can make it happen — and we'll help. [**Get the Atlas in your language**](/get-the-atlas-in-your-language/)
 
 ## Who's behind the Atlas
 
