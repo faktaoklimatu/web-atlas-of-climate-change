@@ -5,7 +5,20 @@
       "url": "https://factsonclimate.org/"
     }
   ],
-  "languages": [],
+  "languages": [
+    {
+      "code": "EN",
+      "flag": "🇬🇧",
+      "url": "https://atlasofclimatechange.org",
+      "hreflang": "en"
+    },
+    {
+      "code": "CS",
+      "flag": "🇨🇿",
+      "url": "https://atlasklimatu.cz",
+      "hreflang": "cs"
+    }
+  ],
   "socialLinks": [
     {
       "label": "Facebook",
