@@ -114,3 +114,19 @@ main > * + * {
     scroll-behavior: auto !important;
   }
 }
+
+/* --- Call-to-action links in CMS prose (About, Get the Atlas in your language) ---
+   A link whose whole label is bold, [**Label**](url), is drawn as a blue
+   button, so the markdown stays plain. The doubled class outranks the pages'
+   scoped `.about__prose a` rules. */
+.about__prose.about__prose a:has(> strong) {
+  display: inline-block;
+  padding: var(--size-1-5) var(--size-4);
+  border-radius: var(--size-1-5);
+  background: var(--blue-600);
+  color: var(--white);
+  font-family: var(--font-mono);
+  font-size: 15px;
+  text-decoration: none;
+}
+.about__prose.about__prose a:has(> strong):hover { background: var(--blue-700); color: var(--white); }
