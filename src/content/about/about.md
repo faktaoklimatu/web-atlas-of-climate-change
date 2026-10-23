@@ -5,6 +5,8 @@ description: A Visual Guide to the Science and Data — who makes the Atlas, and
 
 *A Visual Guide to the Science and Data*
 
+![The Atlas of Climate Change: cover and an open spread](/images/about/atlas-mockup.png)
+
 In the polarised climate debate, people often gravitate toward extremes – denial or despair. The Atlas of Climate Change offers solid, fact-based ground: clear infographics and accessible text, combining scientific rigour with genuine readability.
 
 The Atlas gives you:
@@ -13,25 +15,40 @@ The Atlas gives you:
 - **Visual map** – key connections at a glance, in clear infographics
 - **Thematic compass** – the causes, impacts, trends, and possible solutions
 
-The Atlas is a reliable guide for decision-makers, journalists, students, and the public alike – and can serve as a backbone for climate curricula in secondary and higher education.
-
 [**Download the full Atlas as a PDF**](/images/atlas/atlas-of-climate-change-online.pdf)
 
-Interested in the Atlas of Climate Change in your own language? You can make it happen — and we'll help. [**Get the Atlas in your language**](/get-the-atlas-in-your-language/)
+## Who is it for
+
+The Atlas is a reliable guide for anyone who wants to understand climate change in depth:
+
+- **Journalists, public administration and businesses** – quick orientation in data and context you can cite
+- **Students and teachers** – a complete overview of the topic, usable as the backbone of a climate curriculum in secondary and higher education
+- **The general public** – an accessible way into the topic without reading specialist reports
+
+## Interested in the Atlas of Climate Change in your own language?
+
+You can make it happen — and we'll help.
+
+[**Get the Atlas in your language**](/get-the-atlas-in-your-language/)
 
 ## Who's behind the Atlas
 
-**Fakta o klimatu** (Facts on Climate) is an interdisciplinary team of analysts based in Czechia specialising in climate change and the transition to a low-carbon economy. Through scientific data visualisations and original analytical work, the team draws attention to critical issues while providing clear, accessible information to everyone.
+**[Fakta o klimatu](https://faktaoklimatu.cz/o-nas)** (Facts on Climate) is an interdisciplinary team of analysts based in Czechia specialising in climate change and the transition to a low-carbon economy. Through scientific data visualisations and original analytical work, the team draws attention to critical issues while providing clear, accessible information to everyone.
 
-Authors: Ondřej Přibyla & Petr Daniš
+Authors:\
+*Ondřej Přibyla & Petr Daniš*
 
-Information & Graphic Design: Marcel Otruba, Kristína Pšorn Zákopčanová
+Information & Graphic Design:\
+*Marcel Otruba, Kristína Pšorn Zákopčanová*
 
-Contributors: Kateřina Kolouch Grabovská, Jiří Lněnička, Matěj Kolouch Grabovský
+Contributors:\
+*Kateřina Kolouch Grabovská, Jiří Lněnička, Matěj Kolouch Grabovský*
 
-Expert Review: Adam Smith, Tyndall Centre for Climate Change Research, University of East Anglia; Becca Beutel, Department of Earth, Ocean and Atmospheric Sciences, University of British Columbia; Tereza Jarnikova, Tyndall Centre for Climate Change Research, University of East Anglia
+Expert Review:\
+*Adam Smith, Tyndall Centre for Climate Change Research, University of East Anglia; Becca Beutel, Department of Earth, Ocean and Atmospheric Sciences, University of British Columbia; Tereza Jarnikova, Tyndall Centre for Climate Change Research, University of East Anglia*
 
-Proofreading: Roman Blahynka
+Proofreading:\
+*Roman Blahynka*
 
 The Atlas is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0) – [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/)
 
