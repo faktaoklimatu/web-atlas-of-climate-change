@@ -11,7 +11,7 @@ data:
     - label: "NOAA, Global Monitoring Library, Mauna Loa"
       url: https://gml.noaa.gov/ccgg/trends/
     - label: "Scripps O₂ Program, Mauna Loa Observatory"
-      url: https://scrippso2.ucsd.edu/data/mlo.html
+      url: https://scrippso2.ucsd.edu/data/mauna-loa-observatory-hawaii/
 ---
 
 **A long-term trend in increasing concentrations of carbon dioxide (CO₂) and declining concentrations of oxygen (O₂) shows that humans have been causing changes in the atmosphere composition by their activity – primarily by burning fossil fuels.**
@@ -39,5 +39,5 @@ Keeling observed this oscillation between summer and winter but also noticed **a
 The fact that rising CO₂ concentrations are caused by combustion was proven by Keeling's son Ralph, who found a precise method to measure concentrations of oxygen in 1988. His results show an **unnatural long-term decline in O₂ concentrations**. Subsequent research, including isotopic analysis, confirmed that the rise in atmospheric CO₂ is attributable to fossil fuel combustion.[^3]
 
 [^1]: The dataset of averaged monthly CO2 concentrations as measured in Mauna Loa Observatory in Hawaii is accessible on NOAA, Global Monitoring Library, [Trends in CO2, CH4, N2O, SF6](https://gml.noaa.gov/ccgg/trends/).
-[^2]: The dataset of averaged monthly O2 concentrations as measured in Mauna Loa Observatory in Hawaii is accessible via the [Scripps O2 Program](https://scrippso2.ucsd.edu/data/mlo.html). Dataset accessed 2026-01-22.
+[^2]: The dataset of averaged monthly O₂ concentrations as measured in Mauna Loa Observatory in Hawaii is accessible via the [Scripps O₂ Program](https://scrippso2.ucsd.edu/data/mauna-loa-observatory-hawaii/). Dataset accessed 2026-01-22.
 [^3]: E.g. Graven, H., Keeling, R.F., Rogelj, J. (2020). Changes to Carbon Isotopes in Atmospheric CO2 Over the Industrial Era and Into the Future. Global Biogeochemical Cycles, 34 (11). DOI: [10.1029/2019GB006170](https://doi.org/10.1029/2019GB006170).
