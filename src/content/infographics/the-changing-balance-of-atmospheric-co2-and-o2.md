@@ -26,7 +26,7 @@ The method for exact determination of CO₂ concentrations (to 0.1 ppm, i.e. 0.0
 
 *During photosynthesis, plants capture CO₂ from the air and produce O₂. Conversely, they use O₂ and release CO₂ during respiration.*
 
-CO₂ + H₂O → O₂ + carbohydrates
+CO₂ + H₂O ⇄ O₂ + carbohydrates
 
 Most of the world's forests are located in the Northern Hemisphere. In summer, when deciduous trees are in full leaf, photosynthesis prevails; plants capture CO₂ and use the carbon to build their trunks and foliage. In winter, photosynthesis stops and plants begin to release CO₂ through respiration, as they burn energy to maintain their cells, even in a dormant state. Meanwhile, soil microbes decompose fallen leaves, further releasing CO₂ back into the air.
 
