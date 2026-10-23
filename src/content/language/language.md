@@ -26,4 +26,4 @@ Once we've agreed on the details, the practical work follows roughly three stage
 
 ## Ready to start?
 
-Read the full *Atlas Localisation Guide* for all the details, and write to us at [localisation@faktaoklimatu.cz](mailto:localisation@faktaoklimatu.cz).
+Read the full *Atlas Localisation Guide* for all the details, and write to us at [info@faktaoklimatu.cz](mailto:info@faktaoklimatu.cz).
